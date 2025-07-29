@@ -7,3 +7,34 @@
 background-color: black;
     
 }
+.navbar-custom {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .btn-cart {
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    padding: 6px 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .navbar-icon {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .navbar-logo {
+    height: 70px;
+  }
