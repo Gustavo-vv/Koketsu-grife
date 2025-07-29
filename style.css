@@ -1,40 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.fundo-nav{
-background-color: black;
-    
-}
-.navbar-custom {
+.body {
+    background-color: #030303;
+    color: white;
+    padding-top: 70px;
+  }
+
+  .navbar {
     background-color: transparent;
     position: fixed;
-    width: 100%;
     top: 0;
-    z-index: 1000;
+    width: 100%;
+    z-index: 1050;
   }
 
-  .btn-cart {
-    background-color: #000;
-    color: #fff;
-    border-radius: 25px;
+  .icon-button {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
     padding: 6px 16px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
   }
 
-  .navbar-icon {
+  .icon-link {
     color: white;
-    font-size: 14px;
     text-decoration: none;
     margin-right: 15px;
     display: flex;
     align-items: center;
     gap: 5px;
+    font-size: 0.9rem;
   }
 
-  .navbar-logo {
-    height: 70px;
+  .logo {
+    max-height: 80px;
   }
+
+  .offcanvas {
+    background-color: #000000;
+    color: white;
+  }
+
+  .navbar-section {
+    flex: 1;
+  }
+
+  .navbar-center {
+    flex: 1;
+    text-align: center;
+  }
+
+  .navbar-end {
+    flex: 1;
+    text-align: right;
+  }
+
