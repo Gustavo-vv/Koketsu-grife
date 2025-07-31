@@ -10,6 +10,9 @@
     top: 0;
     width: 100%;
     z-index: 1050;
+    transition: background-color 0.3s ease;
+    
+
   }
 
   .icon-button {
@@ -36,7 +39,7 @@
   }
 
   .logo {
-    max-height: 80px;
+    max-height: 98px;
   }
 
   .offcanvas {
@@ -56,4 +59,7 @@
   .navbar-end {
     flex: 1;
     text-align: right;
+  }
+  .navbar.scrolled {
+    background-color: #0e0d0d /* cor quando rola para baixo */
   }
